@@ -51,7 +51,7 @@ If you have Docker installed, start a RabbitMQ container:
 ```bash
 docker run -d --hostname rabbitmq --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
-Access the RabbitMQ management UI at (http://localhost:15672) (default login: guest, password: guest).
+Access the RabbitMQ management UI at http://localhost:15672 (default login: guest, password: guest).
 
 ### 4. Start the Application
 ```bash
@@ -61,7 +61,7 @@ The server will start on port 3000. You can access the chat application at http:
 
 ## Usage
 
-- Open a web browser and navigate to (http://localhost:3000).
+- Open a web browser and navigate to http://localhost:3000.
 - Open multiple tabs/windows to simulate multiple chat users.
 - Send a message in one tab, and it will appear instantly in the others, demonstrating real-time communication.
 
